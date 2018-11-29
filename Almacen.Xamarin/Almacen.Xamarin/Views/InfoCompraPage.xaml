@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Almacen.Xamarin.Views.InfoCompraPage"
+             xmlns:tdr="clr-namespace:Almacen.Xamarin.Helpers"
+             Title="{tdr:Translate DetallesCompra}" >
+    
+    
+    <StackLayout Margin="5" Padding="10">
+    <Image Source="{Binding Imagen}" Grid.Row="0" Grid.ColumnSpan="2" WidthRequest="250" HeightRequest="200" />
+    <Grid x:Name="GridCompra" Grid.Row="0" Margin="5"  RowSpacing="10" ColumnSpacing="10">
+            <Label Text="{tdr:Translate Referencia}" Grid.Column="0" Grid.Row="1" TextColor="DarkBlue" FontAttributes="Bold" FontSize="20"/>
+            <Label Text="{tdr:Translate Nombre}" Grid.Column="0" Grid.Row="2" TextColor="DarkBlue" FontAttributes="Bold"  FontSize="20"/>
+            <Label Text="{tdr:Translate Descripcion}" Grid.Column="0" Grid.Row="3" TextColor="DarkBlue" FontAttributes="Bold"  FontSize="20"/>
+            <Label Text="{Binding Referencia}" Grid.Column="1" Grid.Row="1" FontSize="20" />
+            <Label Text="{Binding Nombre}" Grid.Column="1" Grid.Row="2" FontSize="20" />
+            <Label Text="{Binding Descripcion}" Grid.Column="1" Grid.Row="3" FontSize="20" />
+            <Label Text="{tdr:Translate Cantidad}" Grid.Column="0" Grid.Row="4" TextColor="DarkBlue" FontAttributes="Bold" FontSize="20"/>
+            <Label x:Name="Cantidad" Text="" Grid.Column="1" Grid.Row="4"  FontAttributes="Bold"/>
+            <Label Text="{tdr:Translate TotalPagar}" Grid.Column="0" Grid.Row="5" TextColor="DarkBlue" FontAttributes="Bold" FontSize="20" />
+            <Label x:Name="TotalPagar" Text="" Grid.Column="1" Grid.Row="5" FontSize="20" />
+            <Button Text="{tdr:Translate FinalizarCompra}" Grid.ColumnSpan="2" Grid.Row="6" Clicked="Finalizar_Click" />
+    </Grid>
+ </StackLayout>
+
+
+</ContentPage>

@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Almacen.Api", "Almacen.Api\Almacen.Api.csproj", "{EDD0BBFF-5F18-4FA8-BC80-48A9BF32A852}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Almacen.Dominio", "Almacen.Dominio\Almacen.Dominio.csproj", "{376D2C8A-EB84-4016-AFFE-A45680D8ACE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Almacen.Xamarin.Android", "Almacen.Xamarin\Almacen.Xamarin.Android\Almacen.Xamarin.Android.csproj", "{D702A7ED-6E11-42E1-BA33-ABFEB10BA54F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Almacen.Xamarin", "Almacen.Xamarin\Almacen.Xamarin\Almacen.Xamarin.csproj", "{737BC3EC-9526-4D1C-9849-ADE7981735AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,20 @@ Global
 		{EDD0BBFF-5F18-4FA8-BC80-48A9BF32A852}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDD0BBFF-5F18-4FA8-BC80-48A9BF32A852}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDD0BBFF-5F18-4FA8-BC80-48A9BF32A852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376D2C8A-EB84-4016-AFFE-A45680D8ACE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376D2C8A-EB84-4016-AFFE-A45680D8ACE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376D2C8A-EB84-4016-AFFE-A45680D8ACE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376D2C8A-EB84-4016-AFFE-A45680D8ACE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D702A7ED-6E11-42E1-BA33-ABFEB10BA54F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D702A7ED-6E11-42E1-BA33-ABFEB10BA54F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D702A7ED-6E11-42E1-BA33-ABFEB10BA54F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D702A7ED-6E11-42E1-BA33-ABFEB10BA54F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D702A7ED-6E11-42E1-BA33-ABFEB10BA54F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D702A7ED-6E11-42E1-BA33-ABFEB10BA54F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{737BC3EC-9526-4D1C-9849-ADE7981735AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{737BC3EC-9526-4D1C-9849-ADE7981735AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{737BC3EC-9526-4D1C-9849-ADE7981735AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{737BC3EC-9526-4D1C-9849-ADE7981735AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
